@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color:white;
+}
+.basicDesc{
+    font-size:30px;
+}
+.AboutImg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    height:650px;
+    object-fit: cover;
+}
+
+.desc {
+    position: relative;
+    text-align: center;
+  }
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size:30px;
+    transform: translate(-50%, -50%);
+  }
