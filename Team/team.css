@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    /* background:url("../assets/teambg.jpeg"); */
+    background: rgb(40,40,40);
+    background-size: 2000px;
+  width:100vw;
+    object-fit: cover;
+    height:100vh;
+}
+.teamHeading{
+    color:rgba(255, 255, 0, 0.587);
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
