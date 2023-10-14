@@ -3,7 +3,42 @@ body{
     color:white;
 }
 .basicDesc{
+    margin-top:100px;
     font-size:30px;
+    line-height: 50px;
+    margin-bottom:300px;
+}
+.fade-in-text {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 .AboutImg img{
     display: block;
@@ -25,5 +60,20 @@ body{
     top: 50%;
     left: 50%;
     font-size:30px;
+    line-height:50px;
     transform: translate(-50%, -50%);
+  }
+
+  .centered h2{
+    text-shadow: 2px 2px green;
+  }
+  .hidden {
+    opacity: 0;
+    transition: all 4s;
+  }
+  .show{
+    opacity:1;
+  }
+  .desc img{
+    opacity:0.7
   }
