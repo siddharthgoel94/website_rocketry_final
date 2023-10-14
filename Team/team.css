@@ -135,16 +135,46 @@ body{
     width: 40%;
     /* letter-spacing: 0.1rem; */
   }
-  .team-member-name>h6{
-    font-size: 1.7rem;
-  }
-  
-  .team-member-name{
-    margin-top: 0.5rem;
-  }
+ 
 
   .myTeam{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-member{
+    margin:1rem;
+  }
+  .my-card{
+    margin:1rem;
+    border-radius:5rem;
+    border:none;
+  }
+  .my-card>img{
+    border-radius:5rem;
+    /* padding:0 1rem; */
+
+  }
+  .socialHandles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content:safe; */
+    
+  }
+  .my-icon{
+    margin:0.5rem 1.5rem;
+    cursor: pointer;
+  }
+  .team-member-name{
+    font-size:2rem;
+    text-align: center;
+    
+  }
+  .team-member-intro{
+    font-size:1.2rem;
+    text-align: center;
   }
   
