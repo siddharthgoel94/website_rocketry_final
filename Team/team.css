@@ -196,7 +196,7 @@ nav .menu{
   .myTeam{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .team-member{
@@ -232,18 +232,24 @@ nav .menu{
   .team-member-intro{
     font-size:1.2rem;
     text-align: center;
-    color: #c6c1c1;
+    color: #f4eded;
   }
   .my-img{
-    height:28rem;
+    height:25rem;
     width:20rem;
     align-self: center;
   }
   .card-text{
-    /* overflow: hidden; */
-    /* height:12rem; */
+    overflow: hidden;
+    height:12rem;
   }
  .container{
   /* border: 1px solid peachpuff; */
   padding-top: 4.5rem;
+ }
+ .team-member-designation{
+  font-size:1.5rem;
+  text-align: center;
+  font-weight: 400;
+  color: #b2b2b2;
  }
