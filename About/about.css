@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding:0;
-  background-color: black;
+  background-color:black;
   color:white;
 }
 * {
@@ -114,8 +114,10 @@ input[type=checkbox] {
   font-size:1.5rem;
    text-align: center;
    padding:5.5rem;
+   background-image:url("../assets/teambg.jpeg");
    
 }
+
 @media(max-width:450px){
   .basicDesc{
     display: flex; 
@@ -128,7 +130,7 @@ input[type=checkbox] {
   }
 }
 .fade-in-text {
-  animation: fadeIn 5s;
+  animation: fadeIn 2.5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
@@ -192,7 +194,7 @@ input[type=checkbox] {
   } 
   .hidden {
     opacity: 0;
-    transition: all 4s;
+    transition: all 3.1s;
   }
   .show{
     opacity:1;
