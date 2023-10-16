@@ -14,3 +14,8 @@ const hiddenElements=document.getElementsByClassName("hidden")
 for (let i=0;i<hiddenElements.length;i++){
     observer.observe(hiddenElements[i])
 }
+
+var preloader=document.querySelector(".loader");
+window.addEventListener("load",function(){
+    preloader.classList.add("disappear");
+});
