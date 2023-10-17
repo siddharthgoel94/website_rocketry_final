@@ -339,6 +339,14 @@ iframe{
   margin-bottom:30px;
   
 }
+
+.hidden {
+  opacity: 0;
+  transition: all 3.1s;
+}
+.show{
+  opacity:1;
+}
   /* .footer {
     position: relative;
     width: 100%;
