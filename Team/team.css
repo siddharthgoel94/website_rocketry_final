@@ -280,3 +280,84 @@ nav .menu{
   font-size: 1.2rem;
   color: rgb(171, 169, 169);
  }
+
+ /* footer styles */
+
+
+
+
+
+.footer{
+  padding: 0;
+  background-color: #1b1b1b;
+}
+
+
+.upper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.left{
+  width:30rem;
+  height:24rem;
+ 
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+  /* border:10px solid royalblue; */
+  
+  justify-content:center;
+  align-items: center;
+  
+  margin-right:1rem;
+}
+.footer-title{
+  font-size:3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.right{
+  width:30rem;
+  /* border: 1px solid white; */
+  /* margin: 0rem 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items:start;
+}
+.footer-social-handles{
+  display: flex;
+  flex-direction: column;
+}
+.footer-icon{
+  margin: 0 1rem;
+  /* margin-top: 4rem; */
+}
+.follow-us{
+ font-size:2.3rem;
+  /* font-weight: 700; */
+}
+
+.map>iframe{
+  height: 15rem;
+}
+.reach-us{
+  font-size:2rem;
+}
+.address{
+  
+  margin: 1rem auto;
+  font-size: 1rem;
+}
+.all-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.copyright-text{
+  text-align: center;
+
+}
