@@ -266,6 +266,17 @@ nav .menu{
   }
   .teamHeading,.teamText{
     text-align: center;
+    
   }
   
+ }
+ .card-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .teamText{
+  font-size: 1.2rem;
+  color: rgb(171, 169, 169);
  }
