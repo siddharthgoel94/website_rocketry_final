@@ -42,11 +42,10 @@ nav .menu{
   justify-content: space-between;
   padding: 0 20px;
 }
-.menu .logo {
-  text-decoration: none;
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
+
+.logo img{
+  width:2.7em;
+  height:2.7em;
 }
 .menu ul{
   display: inline-flex;
