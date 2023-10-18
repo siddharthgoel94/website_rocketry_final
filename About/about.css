@@ -222,7 +222,7 @@ input[type=checkbox] {
   .desc img{
     opacity:0.5
   }
-  .footer {
+  /* .footer {
     position: relative;
     width: 100%;
     background: #1D1D1D;
@@ -280,4 +280,25 @@ input[type=checkbox] {
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
+  } */
+
+
+
+
+  .my-footer{
+    background-color: #1b1b1b;
+    color:white;
+    /* border: 1px solid white; */
+  }
+  .footer-title{
+    font-size: 2rem;
+  }
+  .footer-paragraph{
+    font-size: 1.5rem;
+  }
+  .social-link>a{
+    font-size:1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
   }

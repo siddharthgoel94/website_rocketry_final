@@ -285,7 +285,7 @@ nav .menu{
 
 
 
-
+/* 
 
 .footer{
   padding: 0;
@@ -297,16 +297,14 @@ nav .menu{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* justify-content: space-between; */
-}
+ 
 .left{
   width:30rem;
   height:24rem;
  
   display: flex;
   flex-direction: column;
-  /* background-color: #fff; */
-  /* border:10px solid royalblue; */
+ 
   
   justify-content:center;
   align-items: center;
@@ -314,14 +312,14 @@ nav .menu{
   margin-right:1rem;
 }
 .footer-title{
-  font-size:3rem;
+  font-size:2rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 .right{
   width:30rem;
-  /* border: 1px solid white; */
-  /* margin: 0rem 1rem; */
+  
+ 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -333,15 +331,16 @@ nav .menu{
 }
 .footer-icon{
   margin: 0 1rem;
-  /* margin-top: 4rem; */
+  
 }
 .follow-us{
  font-size:2.3rem;
-  /* font-weight: 700; */
+  
 }
 
 .map>iframe{
   height: 15rem;
+  
 }
 .reach-us{
   font-size:2rem;
@@ -360,4 +359,24 @@ nav .menu{
 .copyright-text{
   text-align: center;
 
+}
+.left{
+  padding:0 1rem;
+} */
+
+.my-footer{
+  background-color: #1b1b1b;
+  /* border: 1px solid white; */
+}
+.footer-title{
+  font-size: 2rem;
+}
+.footer-paragraph{
+  font-size: 1.5rem;
+}
+.social-link>a{
+  font-size:1.5rem;
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
 }

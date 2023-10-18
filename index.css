@@ -406,3 +406,22 @@ iframe{
     font-size: 1rem;
     font-weight: 300;
   } */
+
+
+  .my-footer{
+    background-color: #1b1b1b;
+    color:white;
+    /* border: 1px solid white; */
+  }
+  .footer-title{
+    font-size: 2rem;
+  }
+  .footer-paragraph{
+    font-size: 1.5rem;
+  }
+  .social-link>a{
+    font-size:1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+  }

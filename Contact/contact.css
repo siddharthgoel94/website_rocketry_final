@@ -177,7 +177,7 @@ a {
 
 }
 .submit{
-    background-color: white;
+    background-color: rgb(200,200,200);
     border:none;
     border-radius: 1rem;
     padding: 1rem 3rem;
@@ -185,9 +185,27 @@ a {
     cursor: pointer;
 }
 .submit:hover{
-    background-color:yellow;
+    background-color:white;
     
 }
 
+
+.my-footer{
+  background-color: #1b1b1b;
+  color:white;
+  /* border: 1px solid white; */
+}
+.footer-title{
+  font-size: 2rem;
+}
+.footer-paragraph{
+  font-size: 1.5rem;
+}
+.social-link>a{
+  font-size:1.5rem;
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
 
 
