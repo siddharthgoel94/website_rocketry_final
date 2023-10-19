@@ -14,19 +14,28 @@
 <body>
   <div class="loader">
   </div> 
-  <nav>
-    <div class="menu">
-      <div class="logo"><img alt="rocketryLogo" src="../assets/rocketryLogo.jpeg"></div>
-<div>
-<ul>
-    <a href="../Team/team.html"> <li>Team</li></a>
-    <a href="../index.html"><li> Home</li></a>
-    <a href="../About/about.html"> <li> About</li></a>
-    <a href="../Contact/contact.html"> <li>Contact</li></a>
-</ul>
-</div>
-</nav>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo"><img alt="rocketryLogo" src="../assets/rocketryLogo.jpeg"></div>
 
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="../Team/team.html">Team</a></li>
+        <li><a href="../Contact/contact.html">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
 
   
     <div class="container">
