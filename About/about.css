@@ -6,6 +6,7 @@ body{
   padding:0;
   background-color:black;
   color:white;
+  
 }
 .loader{
   position:fixed;
@@ -76,7 +77,7 @@ li {
   color:black;
 }
 .menu li {
-  padding: 5px 14px;
+  padding: 3px 14px;
 }
 
 input[type=checkbox] {
@@ -100,6 +101,7 @@ input[type=checkbox] {
     left: 0;
     text-align: center;
     padding: 16px 0;
+    width:100%;
   }
 
   .menu li:hover {
@@ -121,24 +123,26 @@ input[type=checkbox] {
   .hamburger {
     display: block;
   }
-
-  .dropdown {
-    left: 50%;
-    top: 30px;
-    transform: translateX(35%);
-  }
 }
 
+.deptHeader{    
+  margin-top:40px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color:white;
+  
+}
 .basicDesc{
   display: flex; 
   align-items: center; 
   justify-content: center; 
   flex-direction: column;  
   font-size:1.5rem;
-   text-align: center;
-   padding:5.5rem;
-   background-image:url("../assets/teambg.jpeg");
-   
+  text-align: center;
+  padding:5.5rem; 
 }
 
 @media(max-width:450px){
@@ -197,6 +201,7 @@ input[type=checkbox] {
 .desc img{
    width:100%;
    height:40rem;
+   
 }
 .caption{
   position: absolute;
@@ -204,6 +209,7 @@ input[type=checkbox] {
   padding:0.5em;
   /* max-width: 200px; */
   word-break: break-word;
+  
 }
 @media(max-width:450px){
   .caption{
@@ -225,69 +231,7 @@ input[type=checkbox] {
   .desc img{
     opacity:0.5
   }
-  /* .footer {
-    position: relative;
-    width: 100%;
-    background: #1D1D1D;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .social-icon,
-  .Footermenu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-  }
-  
-  .social-icon__item,
-  .menu__item {
-    list-style: none;
-  }
-  
-  .social-icon__link {
-    font-size: 2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-  }
-  .social-icon__link:hover {
-    transform: translateY(-10px);
-  }
-  
-  .menu__link {
-    font-size: 1.2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    text-decoration: none;
-    opacity: 0.75;
-    font-weight: 300;
-  }
-  
-  .menu__link:hover {
-    opacity: 1;
-  }
-  
-  .footer p {
-    color: #fff;
-    margin: 15px 0 10px 0;
-    font-size: 1rem;
-    font-weight: 300;
-  } */
-
-
-
-
+ 
   .my-footer{
     background-color: #1b1b1b;
     color:white;
@@ -422,4 +366,5 @@ input[type=checkbox] {
         
       }
     }
+    
     
