@@ -129,7 +129,7 @@ input[type=checkbox] {
 
 .teamHeading{
     /* color:rgba(255, 255, 0, 0.587); */
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 1rem;
 }
@@ -253,7 +253,7 @@ input[type=checkbox] {
 
   }
   .subDepartmentHeading>h3{
-    font-size: 3.1rem;
+    font-size: 2.1rem;
     border-bottom:1px solid grey;
     border-width: 0.2rem;
     width: 40%;
@@ -293,18 +293,18 @@ input[type=checkbox] {
     cursor: pointer;
   }
   .team-member-name{
-    font-size:2rem;
+    font-size:1.5rem;
     text-align: center;
     
   }
   .team-member-intro{
-    font-size:1.2rem;
+    font-size:1rem;
     text-align: center;
     color: #f4eded;
   }
   .my-img{
-    height:25rem;
-    width:20rem;
+    height:20rem;
+    width:16rem;
     align-self: center;
   }
   .card-text{
@@ -316,7 +316,7 @@ input[type=checkbox] {
   padding-top: 4.5rem;
  }
  .team-member-designation{
-  font-size:1.5rem;
+  font-size:1.1rem;
   text-align: center;
   font-weight: 400;
   color: #b2b2b2;
