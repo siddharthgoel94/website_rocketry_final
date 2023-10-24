@@ -154,7 +154,7 @@
     padding: 0 20px;
     text-align: center;
   }
-  .center .title{
+  .center {
     color: #fff;
     font-size: 55px;
     font-weight: 600;
@@ -339,4 +339,16 @@ section{
   .menu>a{
     text-decoration: none;
     /* font-size: 1.5rem; */
+  }
+  .team-motto{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 4rem;
+  }
+  .title{
+    color: #fff;
+    /* font-size: 55px; */
+    font-weight: 600;
+    font-size:4rem;
   }
