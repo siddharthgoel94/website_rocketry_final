@@ -9,6 +9,7 @@ body{
     /* background: rgb(30,30,30); */
     background: url("../assets/bg5.jpeg");
     background-size:cover;
+    
 }
 
 .loader{
@@ -129,7 +130,7 @@ input[type=checkbox] {
 
 .teamHeading{
     /* color:rgba(255, 255, 0, 0.587); */
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 1rem;
 }
@@ -253,7 +254,7 @@ input[type=checkbox] {
 
   }
   .subDepartmentHeading>h3{
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     border-bottom:1px solid grey;
     border-width: 0.2rem;
     width: 40%;
@@ -293,12 +294,12 @@ input[type=checkbox] {
     cursor: pointer;
   }
   .team-member-name{
-    font-size:1.5rem;
+    font-size:1rem;
     text-align: center;
     
   }
   .team-member-intro{
-    font-size:1rem;
+    font-size:0.8rem;
     text-align: center;
     color: #f4eded;
   }
@@ -316,7 +317,7 @@ input[type=checkbox] {
   padding-top: 4.5rem;
  }
  .team-member-designation{
-  font-size:1.1rem;
+  font-size:0.9rem;
   text-align: center;
   font-weight: 400;
   color: #b2b2b2;
@@ -345,7 +346,7 @@ input[type=checkbox] {
   justify-content: center;
  }
  .teamText{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(171, 169, 169);
  }
 
