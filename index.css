@@ -317,23 +317,62 @@ section{
 .show{
   opacity:1;
 }
-.about-rocket{
+.about-rocket{ 
+  width: 80%;
+  height:40rem;
+  margin:auto;
   display:flex;
-  margin:auto; 
-  width: 1000px;
-  background-color:black;
-  
+  margin-bottom:25px;
 }
 
 .left-info{
-  background-color:yellow;
-  width:70%;
+  width:55%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
 }
+.left-info-block{
+  width:11em;
+  height:11em;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  color:white;
+  font-size:1.4em;
+}
+  
 .rightImg{
-  background-color:blue;
-  width:30%;
+  background:url("../assets/rockkk.png") no-repeat;
+  background-position: 0rem 0rem;
+  background-size: contain;
+   width:45%;  
+} 
+@media(max-width:500px){
+  .left-info{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .rightImg{
+    background:url("../assets/rockkk.png") no-repeat;
+    background-position: 0rem 0rem;
+    background-size: contain;
+     width:40%;  
+  } 
 }
-
+.specifications{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color:white;
+  margin-bottom:30px;
+}
   .my-footer{
     margin-top:30px;
     background-color: #1b1b1b;
