@@ -248,14 +248,14 @@ input[type=checkbox] {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 1rem;
+    /* margin: 1rem; */
     
     /* width: 50%; */
 
   }
   .subDepartmentHeading>h3{
     font-size: 1.5rem;
-    border-bottom:1px solid grey;
+    /* border-bottom:1px solid grey; */
     border-width: 0.2rem;
     width: 40%;
     /* letter-spacing: 0.1rem; */
@@ -265,7 +265,7 @@ input[type=checkbox] {
   .myTeam{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .team-member{
@@ -330,9 +330,7 @@ input[type=checkbox] {
     justify-content: center;
     /* align-items: center; */
   }
-  .my-card{
-    margin-left: 4rem;
-  }
+ 
   .teamHeading,.teamText{
     text-align: center;
     
@@ -534,6 +532,7 @@ input[type=checkbox] {
       text-align: center;
       padding: 16px 0;
     }
+    
   
     .menu li:hover {
       display: inline-block;
@@ -564,5 +563,8 @@ input[type=checkbox] {
       top: 30px;
       transform: translateX(35%);
       
+    }
+    .team-member-intro{
+      display:none;
     }
   }
