@@ -50,8 +50,8 @@
   
   /* LOGO */
   .logo img{
-    width:2.7em;
-    height:2.7em;
+    width:3.5em;
+    height:3.5em;
   }
   
   /* NAVBAR MENU */
@@ -316,6 +316,22 @@ section{
 }
 .show{
   opacity:1;
+}
+.about-rocket{
+  display:flex;
+  margin:auto; 
+  width: 1000px;
+  background-color:black;
+  
+}
+
+.left-info{
+  background-color:yellow;
+  width:70%;
+}
+.rightImg{
+  background-color:blue;
+  width:30%;
 }
 
   .my-footer{
