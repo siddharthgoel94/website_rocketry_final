@@ -352,7 +352,7 @@ section{
 @media(max-width:500px){
   .about-rocket{ 
     width: 70%;
-    height:40rem;
+    height:28rem;
     margin:auto;
     display:flex;
     margin-bottom:25px;
