@@ -16,14 +16,17 @@ To set up the Team Rocketry Website locally on your machine, follow these steps:
 
 1. Clone the Repository:
 Open a terminal and run the following command to clone the repository to your local machine:
+
 ![image](https://github.com/siddharthgoel94/website_rocketry_final/assets/138122673/51e03a5c-db43-42a3-8b97-7f58c15b8b34)
 
 2. Navigate to the Project Directory:
 Change your working directory to the cloned project:
+
 ![image](https://github.com/siddharthgoel94/website_rocketry_final/assets/138122673/16fe71d5-4d48-42bd-9a34-73b961855a2d)
 
 3. Open the Website:
 Open the index.html file in your preferred web browser:
+
 ![image](https://github.com/siddharthgoel94/website_rocketry_final/assets/138122673/5ba65784-4101-4e40-b9f7-c4be0841905d)
 
 # Usage 
