@@ -44,6 +44,35 @@ Meet the brilliant minds behind Team Rocketry on the "Team" page. Discover the d
 **Contact Page:**
 For inquiries, collaboration opportunities, or just to share in the enthusiasm for rocketry, head to the "Contact" page. Here, visitors can find contact details, social media links, and a convenient form for reaching out to Team Rocketry. We welcome collaboration and are excited to connect with fellow space enthusiasts.
 
+# Project Structure
+- .vscode
+  - settings.json
+    
+- About
+  - about.html
+  - about.css
+  - about.js
+    
+- Contact
+  - contact.html
+  - contact.css
+  - contact.js
+    
+- Team
+  - team.html
+  - team.css
+  - team.js
+
+- Assets- folder that contains images used in website
+
+- README.md
+
+- index.html
+
+- index.css
+
+- index.js
+
 # SEO Techniques Used
 This section outlines the SEO (Search Engine Optimization) techniques implemented in our website to enhance its visibility on search engines.
 
@@ -87,3 +116,6 @@ Mobile friendliness is a key aspect of SEO, considering the prevalence of mobile
 
 - Responsive design ensures proper rendering on smartphones and tablets.
 - Touch-friendly navigation enhances the mobile user experience.
+
+# Conclusion
+As developers, we've crafted a responsive and user-friendly platform designed to engage and captivate visitors. Through the use of modern web technologies, including HTML, CSS, and JavaScript, we've created an immersive experience that showcases our mission, values, and the brilliant minds behind Team Rocketry. We extend our gratitude to everyone involved in the development process, and we look forward to the ongoing evolution of the Team Rocketry Website as we reach new heights in the realm of model rocketry.
