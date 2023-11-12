@@ -44,4 +44,34 @@ Meet the brilliant minds behind Team Rocketry on the "Team" page. Discover the d
 **Contact Page:**
 For inquiries, collaboration opportunities, or just to share in the enthusiasm for rocketry, head to the "Contact" page. Here, visitors can find contact details, social media links, and a convenient form for reaching out to Team Rocketry. We welcome collaboration and are excited to connect with fellow space enthusiasts.
 
+# SEO Techniques Used
+This section outlines the SEO (Search Engine Optimization) techniques implemented in our website to enhance its visibility on search engines.
 
+## URL Structure
+A clean and descriptive URL structure is crucial for both search engines and users.
+- URLs are concise, reflecting the content of the page.
+- Dynamic parameters are avoided where possible to maintain simplicity.
+
+## Meta Tags
+Meta tags provide valuable information to search engines and users about the content of each page. Our meta tag optimization strategy includes:
+
+### Title Tags
+The title tag is a concise description of the page's content and plays a crucial role in search engine results.
+
+
+### Meta Descriptions
+Meta descriptions provide a brief summary of the page's content, influencing click-through rates in search results.
+
+### Other Meta Tags
+We include other relevant meta tags, such as meta keywords to further optimize search engine interactions.
+
+## Header Tags
+Header tags structure the content on each page and help search engines understand the hierarchy of information. Our header tag optimization includes:
+
+### H1 Tags
+The H1 tag represents the main heading of the page. Each page has a unique and descriptive H1 tag.
+
+### Subsequent Header Tags
+Subsequent header tags (H2, H3, etc.) are used to organize content hierarchically, providing clarity to search engines and users.
+
+By adhering to these SEO techniques, we aim to optimize the website for search engine visibility and provide a better user experience.
