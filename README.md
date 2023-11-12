@@ -75,3 +75,15 @@ The H1 tag represents the main heading of the page. Each page has a unique and d
 Subsequent header tags (H2, H3, etc.) are used to organize content hierarchically, providing clarity to search engines and users.
 
 By adhering to these SEO techniques, we aim to optimize the website for search engine visibility and provide a better user experience.
+
+## Image Optimization
+Optimizing images is essential for both user experience and SEO. We employ the following image optimization practices:
+
+- Images are compressed without compromising quality.
+- Descriptive file names and alt text are used for images.
+
+## Mobile Friendliness
+Mobile friendliness is a key aspect of SEO, considering the prevalence of mobile users. Our website is designed to be responsive and user-friendly across various devices.
+
+- Responsive design ensures proper rendering on smartphones and tablets.
+- Touch-friendly navigation enhances the mobile user experience.
